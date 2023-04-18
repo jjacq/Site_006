@@ -1,0 +1,51 @@
+• Site_006: index_mobile-first
+
+
+• Projeto de estudos "Site responsivo 'Mobile First'";
+
+
+==============================
+• PROJETO:
+
+• A ideia, a princípio, é de um site responsivo do tipo "Mobile First", que usará como base:
+1) Um "CSS Grid Layout" contendo "_____";
+2) Um "Flex Box" contendo "____";
+3) Breakpoints para alterar os estilos de "textos" (basicamente "font-size" e talvez "alinhamento") para as medidas de "Laptop" e "Desktop";
+
+• 
+
+
+==============================
+• PROJETO GRÁFICO:
+
+• Site com:
+1) Uma <head> contendo uma <nav> com links;
+2) Um container <main> que ocupe toda a largura da viewport e acomode de forma automática seu conteúdo (box contendo imagem e algum texto) alterando a diagramação de uma para mais colunas conforme a largura da viewport;
+3)
+
+
+==============================
+• PROJETO - CONCEITO:
+
+• Os problemas ao se adaptar um site de "Mobile" para "Laptop" ou "Desktop" (em que a proporção de tela muda drásticamene) são de dois tipos:
+
+1) Legibilidade:
+- A "font-size" legível em "Mobile" fica enorme no "Desktop", o que requer fontes menores em desktop;
+
+2) Visibilidade:
+- Imagens, etc. que precisam de toda a largura da tela em "Mobile" podem e devem ocupar apenas parte da largura da viewport, o que implica em re-diagramação dos elementos do "grid" (e, eventalmente, seu redimensionamento);
+
+• A ideia é estruturar uma página em que alguns dos elementos sejam apenas adequadamente redimensionados ("font" basicamente) e outros sejam re-arranjados na viewport (passando a ocupar duas ou mais colunas, ao invés de uma e talvez sendo redimensionados);
+
+
+
+==============================
+• ESTRATÉGIA:
+
+• Seguem abaixo alguns pontos iniciais:
+
+1) Estabelecer uma medida base de "16px" que será a referênci para "1 em", e usar esta medida tanto para "font-size" quanto para medidas de elementos;
+- Dessa forma, bastaria criar 
+
+2) Usar como base a medida de "720x1600px" para "Mobile" (meu cel. Samsung Galaxy A03 Core") e de "1366x768px" para o "breakpoint" do Desktop (o "PC-05");
+

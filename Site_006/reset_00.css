@@ -1,0 +1,29 @@
+﻿/* FOLHA DE ESTILO PARA RESET BÁSICO */
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+header,
+navy,
+leftmenu,
+aside,
+main,
+section,
+article,
+footer,
+object,
+img {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  font-weight: normal;
+}
